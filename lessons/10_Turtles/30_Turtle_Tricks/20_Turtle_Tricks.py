@@ -10,11 +10,16 @@ to see how to use the turtle commands.
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup(600,600,0,0)               # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
+tina.shape('turtle')                    # Set the shape of the turtle to a turtle
+tina.speed(2)                           # Make the turtle move as fast, but not too fast.
+
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
 
-... # Your code here
+tina.pencolor('green')
+tina.forward(100)
+tina.left(90)
 
 turtle.exitonclick()                    # Close the window when we click on it

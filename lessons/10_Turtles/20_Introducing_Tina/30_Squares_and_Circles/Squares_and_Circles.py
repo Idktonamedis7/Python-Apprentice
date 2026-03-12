@@ -26,7 +26,7 @@ tina.pendown()                          # Put the pen down so we can draw
 ## Draw a Square
 ##
 
-tina.pencolor('blue')                   # Set the pen color to blue
+tina.pencolor('green')                   # Set the pen color to blue
 tina.forward(200)                       # Move tina forward by the forward distance
 tina.right(90)                          # Turn tina right a quarter turn
 
@@ -34,7 +34,7 @@ tina.pencolor('red')                    # Set the pen color to red
 tina.forward(200)                       # Continue the last two steps three more times
 tina.right(90)                          # to draw a square
 
-tina.pencolor('green')                  # Set the pen color to green
+tina.pencolor('pink')                  # Set the pen color to green
 tina.forward(200)
 tina.right(90)
 
@@ -51,7 +51,7 @@ tina.goto(0, -75)
 tina.pendown()     
 
 tina.pendown()
-tina.color('red')                       # Set the color of tina to red
+tina.color('blue')                       # Set the color of tina to red
 tina.begin_fill()
 tina.circle(75)
 tina.end_fill()
@@ -65,7 +65,7 @@ tina.goto(-50, -150)
 tina.forward(20)                        # Move tina forward by 20
 tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
-tina.write("Why, hello there!")         # Write the message "Why, hello there!"
+tina.write("i dont know what im doing :P")         # Write the message "Why, hello there!"
 tina.backward(20)                       # Move tina backward by 20
 
 turtle.exitonclick()                    # Close the window when we click on it  
